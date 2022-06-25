@@ -22,6 +22,14 @@ body{
     border-radius: 10px;
     margin: auto;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.noticia{
+    color: var(--Light-Cyan);
+    text-align: center;
 }
 
 .titulo{
@@ -31,6 +39,7 @@ body{
 
 .imgDivisor{
     width: 100%;
+    margin: 10px auto 20px auto;
 }
 
 .iconoContenedor{
@@ -44,6 +53,12 @@ body{
     position: absolute;
     bottom: -24px;
     left: 43%;
+}
+
+.iconoContenedor:hover{
+    box-shadow: 0 0 30px 2px var(--Neon-Green) ;
+    cursor: pointer;
+    transition:  .25s ease-in-out;
 }
 
 .icono{
