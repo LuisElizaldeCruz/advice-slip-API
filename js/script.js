@@ -31,12 +31,13 @@ async function getData() {
     }
 }
 
-//let boton = document.querySelector(".iconoContenedor");
+let boton = document.querySelector(".iconoContenedor");
 
-//boton.addEventListener("click",getData);
+boton.addEventListener("click",getData);
 
 //setInterval(getData(),3000);
 
+/*
 (function loop(){
     setTimeout(function() {
        // Your logic here
@@ -44,3 +45,4 @@ async function getData() {
        loop();
    }, 4000);
  })();
+ */

@@ -39,7 +39,7 @@ body{
 
 .imgDivisor{
     width: 100%;
-    margin: 10px auto 20px auto;
+    margin: 10px auto 50px auto;
 }
 
 .iconoContenedor{
@@ -64,4 +64,9 @@ body{
 .icono{
     width: 1.25rem;
     height: 1.25rem;
+}
+
+.noticia{
+    width: 80%;
+    margin: auto;
 }
