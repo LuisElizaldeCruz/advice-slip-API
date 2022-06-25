@@ -1,0 +1,52 @@
+:root{
+    /* Primary */
+
+--Light-Cyan: hsl(193, 38%, 86%);
+--Neon-Green: hsl(150, 100%, 66%);
+
+/* Neutral */
+
+--Grayish-Blue: hsl(217, 19%, 38%);
+--Dark-Grayish-Blue: hsl(217, 19%, 24%);
+--Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body{
+    background-color: var(--Dark-Blue);
+}
+
+.card{
+    width: 400px;
+    height: 300px;
+    background-color: var(--Dark-Grayish-Blue);
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+}
+
+.titulo{
+    color: var(--Neon-Green);
+    text-align: center;
+}
+
+.imgDivisor{
+    width: 100%;
+}
+
+.iconoContenedor{
+    width: 50px;
+    height: 50px;
+    background-color: var(--Neon-Green);
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -24px;
+    left: 43%;
+}
+
+.icono{
+    width: 1.25rem;
+    height: 1.25rem;
+}
